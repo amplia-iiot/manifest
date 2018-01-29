@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="legato" fetch="git://github.com/legatoproject"/>
-    <remote name="amplia-iiot" fetch="git://github.com/amplia-iiot"/>
+    <remote name="amplia-iiot" fetch="git://github.com/amplia-iiot" pushurl="git@github.com:amplia-iiot"/>
 
     <default remote="legato" revision="refs/heads/16.10-maintenance.1" dest-branch="16.10-maintenance.1" sync-j="5"/>
 
